@@ -1,0 +1,499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		781D67FB1B3C3469007A2718 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 781D67FA1B3C3469007A2718 /* FacebookSDK.framework */; };
+		7859EDE11B38443A00AA5CFC /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7859EDE01B38443A00AA5CFC /* ProfileViewController.swift */; };
+		7861D27E1B3055310048E51E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7861D27D1B3055310048E51E /* AppDelegate.swift */; };
+		7861D2811B3055310048E51E /* ExchangeAGram.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7861D27F1B3055310048E51E /* ExchangeAGram.xcdatamodeld */; };
+		7861D2861B3055310048E51E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7861D2841B3055310048E51E /* Main.storyboard */; };
+		7861D2881B3055310048E51E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7861D2871B3055310048E51E /* Images.xcassets */; };
+		7861D28B1B3055310048E51E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7861D2891B3055310048E51E /* LaunchScreen.xib */; };
+		7861D2971B3055310048E51E /* ExchangeAGramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7861D2961B3055310048E51E /* ExchangeAGramTests.swift */; };
+		7861D2A11B3057090048E51E /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7861D2A01B3057090048E51E /* FeedViewController.swift */; };
+		786DF81E1B36862E00C665AB /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786DF81D1B36862E00C665AB /* FilterViewController.swift */; };
+		786DF8201B3696FD00C665AB /* FilterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786DF81F1B3696FD00C665AB /* FilterCell.swift */; };
+		786DF8291B36DC7A00C665AB /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786DF8281B36DC7A00C665AB /* FeedItem.swift */; };
+		78AE45231B351749002106BC /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78AE45221B351749002106BC /* FeedCell.swift */; };
+		78AE45251B351917002106BC /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78AE45241B351917002106BC /* MobileCoreServices.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7861D2911B3055310048E51E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7861D2701B3055300048E51E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7861D2771B3055310048E51E;
+			remoteInfo = ExchangeAGram;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		781D67FA1B3C3469007A2718 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../../../Documents/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
+		781D67FC1B3C3686007A2718 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		7859EDE01B38443A00AA5CFC /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		7861D2781B3055310048E51E /* ExchangeAGram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExchangeAGram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7861D27C1B3055310048E51E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7861D27D1B3055310048E51E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7861D2801B3055310048E51E /* ExchangeAGram.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ExchangeAGram.xcdatamodel; sourceTree = "<group>"; };
+		7861D2851B3055310048E51E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7861D2871B3055310048E51E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7861D28A1B3055310048E51E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		7861D2901B3055310048E51E /* ExchangeAGramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExchangeAGramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7861D2951B3055310048E51E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7861D2961B3055310048E51E /* ExchangeAGramTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeAGramTests.swift; sourceTree = "<group>"; };
+		7861D2A01B3057090048E51E /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		786DF81D1B36862E00C665AB /* FilterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
+		786DF81F1B3696FD00C665AB /* FilterCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterCell.swift; sourceTree = "<group>"; };
+		786DF8281B36DC7A00C665AB /* FeedItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedItem.swift; sourceTree = "<group>"; };
+		78AE45221B351749002106BC /* FeedCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		78AE45241B351917002106BC /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7861D2751B3055310048E51E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78AE45251B351917002106BC /* MobileCoreServices.framework in Frameworks */,
+				781D67FB1B3C3469007A2718 /* FacebookSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7861D28D1B3055310048E51E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7861D26F1B3055300048E51E = {
+			isa = PBXGroup;
+			children = (
+				7861D27A1B3055310048E51E /* ExchangeAGram */,
+				7861D2931B3055310048E51E /* ExchangeAGramTests */,
+				7861D2791B3055310048E51E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7861D2791B3055310048E51E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7861D2781B3055310048E51E /* ExchangeAGram.app */,
+				7861D2901B3055310048E51E /* ExchangeAGramTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7861D27A1B3055310048E51E /* ExchangeAGram */ = {
+			isa = PBXGroup;
+			children = (
+				7861D27D1B3055310048E51E /* AppDelegate.swift */,
+				7861D2A01B3057090048E51E /* FeedViewController.swift */,
+				786DF81D1B36862E00C665AB /* FilterViewController.swift */,
+				78AE45221B351749002106BC /* FeedCell.swift */,
+				786DF81F1B3696FD00C665AB /* FilterCell.swift */,
+				7859EDE01B38443A00AA5CFC /* ProfileViewController.swift */,
+				781D67FC1B3C3686007A2718 /* Bridging-Header.h */,
+				7861D2841B3055310048E51E /* Main.storyboard */,
+				7861D2871B3055310048E51E /* Images.xcassets */,
+				7861D2891B3055310048E51E /* LaunchScreen.xib */,
+				786DF82A1B36DC9900C665AB /* Model */,
+				7861D27B1B3055310048E51E /* Supporting Files */,
+			);
+			path = ExchangeAGram;
+			sourceTree = "<group>";
+		};
+		7861D27B1B3055310048E51E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				781D67FA1B3C3469007A2718 /* FacebookSDK.framework */,
+				78AE45241B351917002106BC /* MobileCoreServices.framework */,
+				7861D27C1B3055310048E51E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7861D2931B3055310048E51E /* ExchangeAGramTests */ = {
+			isa = PBXGroup;
+			children = (
+				7861D2961B3055310048E51E /* ExchangeAGramTests.swift */,
+				7861D2941B3055310048E51E /* Supporting Files */,
+			);
+			path = ExchangeAGramTests;
+			sourceTree = "<group>";
+		};
+		7861D2941B3055310048E51E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7861D2951B3055310048E51E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		786DF82A1B36DC9900C665AB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7861D27F1B3055310048E51E /* ExchangeAGram.xcdatamodeld */,
+				786DF8281B36DC7A00C665AB /* FeedItem.swift */,
+			);
+			name = Model;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7861D2771B3055310048E51E /* ExchangeAGram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7861D29A1B3055310048E51E /* Build configuration list for PBXNativeTarget "ExchangeAGram" */;
+			buildPhases = (
+				7861D2741B3055310048E51E /* Sources */,
+				7861D2751B3055310048E51E /* Frameworks */,
+				7861D2761B3055310048E51E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExchangeAGram;
+			productName = ExchangeAGram;
+			productReference = 7861D2781B3055310048E51E /* ExchangeAGram.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7861D28F1B3055310048E51E /* ExchangeAGramTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7861D29D1B3055310048E51E /* Build configuration list for PBXNativeTarget "ExchangeAGramTests" */;
+			buildPhases = (
+				7861D28C1B3055310048E51E /* Sources */,
+				7861D28D1B3055310048E51E /* Frameworks */,
+				7861D28E1B3055310048E51E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7861D2921B3055310048E51E /* PBXTargetDependency */,
+			);
+			name = ExchangeAGramTests;
+			productName = ExchangeAGramTests;
+			productReference = 7861D2901B3055310048E51E /* ExchangeAGramTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7861D2701B3055300048E51E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Ewan Cluckie";
+				TargetAttributes = {
+					7861D2771B3055310048E51E = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					7861D28F1B3055310048E51E = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 7861D2771B3055310048E51E;
+					};
+				};
+			};
+			buildConfigurationList = 7861D2731B3055300048E51E /* Build configuration list for PBXProject "ExchangeAGram" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7861D26F1B3055300048E51E;
+			productRefGroup = 7861D2791B3055310048E51E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7861D2771B3055310048E51E /* ExchangeAGram */,
+				7861D28F1B3055310048E51E /* ExchangeAGramTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7861D2761B3055310048E51E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7861D2861B3055310048E51E /* Main.storyboard in Resources */,
+				7861D28B1B3055310048E51E /* LaunchScreen.xib in Resources */,
+				7861D2881B3055310048E51E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7861D28E1B3055310048E51E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7861D2741B3055310048E51E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				786DF8201B3696FD00C665AB /* FilterCell.swift in Sources */,
+				786DF81E1B36862E00C665AB /* FilterViewController.swift in Sources */,
+				7861D27E1B3055310048E51E /* AppDelegate.swift in Sources */,
+				78AE45231B351749002106BC /* FeedCell.swift in Sources */,
+				7861D2A11B3057090048E51E /* FeedViewController.swift in Sources */,
+				786DF8291B36DC7A00C665AB /* FeedItem.swift in Sources */,
+				7859EDE11B38443A00AA5CFC /* ProfileViewController.swift in Sources */,
+				7861D2811B3055310048E51E /* ExchangeAGram.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7861D28C1B3055310048E51E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7861D2971B3055310048E51E /* ExchangeAGramTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7861D2921B3055310048E51E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7861D2771B3055310048E51E /* ExchangeAGram */;
+			targetProxy = 7861D2911B3055310048E51E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7861D2841B3055310048E51E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7861D2851B3055310048E51E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7861D2891B3055310048E51E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7861D28A1B3055310048E51E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7861D2981B3055310048E51E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7861D2991B3055310048E51E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7861D29B1B3055310048E51E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: ewancluckie@gmail.com (DD5PNUFLZQ)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/ewancluckie/Documents/FacebookSDK,
+				);
+				INFOPLIST_FILE = ExchangeAGram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "ExchangeAGram/Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		7861D29C1B3055310048E51E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: ewancluckie@gmail.com (DD5PNUFLZQ)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/ewancluckie/Documents/FacebookSDK,
+				);
+				INFOPLIST_FILE = ExchangeAGram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "ExchangeAGram/Bridging-Header.h";
+			};
+			name = Release;
+		};
+		7861D29E1B3055310048E51E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ExchangeAGramTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ExchangeAGram.app/ExchangeAGram";
+			};
+			name = Debug;
+		};
+		7861D29F1B3055310048E51E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ExchangeAGramTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ExchangeAGram.app/ExchangeAGram";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7861D2731B3055300048E51E /* Build configuration list for PBXProject "ExchangeAGram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7861D2981B3055310048E51E /* Debug */,
+				7861D2991B3055310048E51E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7861D29A1B3055310048E51E /* Build configuration list for PBXNativeTarget "ExchangeAGram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7861D29B1B3055310048E51E /* Debug */,
+				7861D29C1B3055310048E51E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7861D29D1B3055310048E51E /* Build configuration list for PBXNativeTarget "ExchangeAGramTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7861D29E1B3055310048E51E /* Debug */,
+				7861D29F1B3055310048E51E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7861D27F1B3055310048E51E /* ExchangeAGram.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7861D2801B3055310048E51E /* ExchangeAGram.xcdatamodel */,
+			);
+			currentVersion = 7861D2801B3055310048E51E /* ExchangeAGram.xcdatamodel */;
+			name = ExchangeAGram.xcdatamodeld;
+			path = ExchangeAGram/ExchangeAGram.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7861D2701B3055300048E51E /* Project object */;
+}
